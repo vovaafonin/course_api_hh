@@ -7,7 +7,7 @@ class GetApiHH(AbstractApiHH):
     def __init__(self):
         self.all_vacancy = []
 
-    def get_vacancy_from_api(self, name_vacancy) -> list:
+    def get_vacancy(self, name_vacancy) -> list:
         """Получаем информацию о вакансиях для пользователя"""
 
         if name_vacancy.isalpha():
