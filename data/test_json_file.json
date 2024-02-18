@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Vacancy_number1",
+    "alternate_url": "URL1",
+    "area": {
+      "name": "Самара"
+    },
+    "salary": {
+      "from": 40000,
+      "to": 60000
+    }
+  },
+  {
+    "name": "Vacancy_number2",
+    "alternate_url": "URL2",
+    "area": {
+      "name": "Казань"
+    },
+    "salary": {
+      "from": null,
+      "to": 100000
+    }
+  }
+]
