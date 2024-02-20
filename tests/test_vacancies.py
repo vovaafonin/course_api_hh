@@ -8,3 +8,4 @@ def test_get_vacancy_list(test_file):
     assert false_expected == False
     assert len(vacancy_num1) == 2
     assert len(vacancy_num1[:2]) == 2
+

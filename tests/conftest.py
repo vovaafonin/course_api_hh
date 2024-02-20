@@ -6,6 +6,7 @@ from src.Json_operation import JsonOperation
 
 
 @pytest.fixture
+
 def test_file():
     with open(PATH_TO_JSON_TEST, encoding="cp1251") as file:
         return json.load(file)
